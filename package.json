@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon app.js && node --trace-warnings"
+    "start": "nodemon src/app.js && node --trace-warnings"
   },
   "dependencies": {
     "@aws-sdk/client-dynamodb": "^3.252.0",

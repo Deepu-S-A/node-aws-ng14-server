@@ -1,0 +1,27 @@
+{
+  "name": "file-uploader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js && node --trace-warnings"
+  },
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.252.0",
+    "@aws-sdk/client-s3": "^3.252.0",
+    "@aws-sdk/lib-dynamodb": "^3.254.0",
+    "@aws-sdk/node-http-handler": "^3.226.0",
+    "@aws-sdk/types": "^3.226.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.17.1",
+    "multer": "^1.4.2",
+    "nodemon": "^2.0.20",
+    "uuid": "^9.0.0"
+  },
+  "author": "Deepu S A",
+  "license": "ISC"
+}
